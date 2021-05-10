@@ -7,11 +7,13 @@ A shipping company uses the following math function to calculate the cost in dol
 package based on its weight in kilograms. The package must be less than 50 kilograms to be
 shipped.
 
+
 3.5, if 0 < w <= 1
 c(w) = 5.5, if 1 < w <= 3
 8.5, if 3 < w <= 10
-13.5 if 10 < w
-14.
+13.5 if 10 < w 14.
+
+
 Write a C# console program that, in the method main, prompts the user to enter the weight of the
 package. If it is possible to ship the package, the program then calculates the shipping cost of the
 package according to the above formulas and displays that shipping cost with an appropriate text
